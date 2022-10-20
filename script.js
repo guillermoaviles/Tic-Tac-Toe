@@ -27,77 +27,77 @@ let player2score = 0;
 
 // Make move function. Marks a move on a corresponding box.
 function play() {
-    moveCount += 1;
     if (moveCount % 2 === 0) {
         this.style.backgroundColor = 'blue';
     } else {
         this.style.backgroundColor = 'red';
     }
 
-    if (box1.style.backgroundColor === box4.style.backgroundColor && box1.style.backgroundColor === box7.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    if (this.style.backgroundColor === box1.style.backgroundColor && this.style.backgroundColor === box4.style.backgroundColor && this.style.backgroundColor === box7.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box2.style.backgroundColor === box5.style.backgroundColor && box2.style.backgroundColor === box8.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box2.style.backgroundColor && this.style.backgroundColor === box5.style.backgroundColor && this.style.backgroundColor === box8.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box3.style.backgroundColor === box6.style.backgroundColor && box3.style.backgroundColor === box9.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box3.style.backgroundColor && this.style.backgroundColor === box6.style.backgroundColor && this.style.backgroundColor === box9.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box1.style.backgroundColor === box2.style.backgroundColor && box1.style.backgroundColor === box3.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box1.style.backgroundColor && this.style.backgroundColor === box2.style.backgroundColor && this.style.backgroundColor === box3.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box4.style.backgroundColor === box5.style.backgroundColor && box4.style.backgroundColor === box6.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box4.style.backgroundColor && this.style.backgroundColor ===  box5.style.backgroundColor && this.style.backgroundColor === box6.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box7.style.backgroundColor === box8.style.backgroundColor && box7.style.backgroundColor === box9.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box7.style.backgroundColor && this.style.backgroundColor === box8.style.backgroundColor && this.style.backgroundColor === box9.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box1.style.backgroundColor === box5.style.backgroundColor && box1.style.backgroundColor === box9.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box1.style.backgroundColor && this.style.backgroundColor === box5.style.backgroundColor && this.style.backgroundColor === box9.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
-    } else if (box3.style.backgroundColor === box5.style.backgroundColor && box3.style.backgroundColor === box7.style.backgroundColor) {
-        if (this.style.backgroundColor === 'red') {
+    } else if (this.style.backgroundColor === box3.style.backgroundColor && this.style.backgroundColor === box5.style.backgroundColor && this.style.backgroundColor === box7.style.backgroundColor) {
+        if (this.style.backgroundColor === 'blue') {
             player1score += 1;
-            console.log('Player 1 wins');
+            alert(`Player 1 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         } else {
             player2score += 1;
-            console.log('Player 2 wins');
+            alert(`Player 2 wins! Player 1 Score: ${player1score}, Player 2 Score: ${player2score}`);
         }
     }
+    moveCount += 1;
 }
 
