@@ -1,9 +1,18 @@
 header {
+    height: 25vh;
+    width: 50%;
+    display: table;
+    margin: auto;
+}
+
+h1 {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
+    font-size: 5vh;
 }
 
 .game-box {
-    /* margin: 10px; */
     width: 308px;
     margin: 10px auto;
     height: 308px;
@@ -17,6 +26,10 @@ header {
   }
 
 .box {
-    background: #F3F3F3;
+    background-color: #F3F3F3;
+}
+
+.box-one {
+    background-color: #F3F3F3;
 }
   
