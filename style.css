@@ -12,6 +12,13 @@ h1 {
     font-size: 5vh;
 }
 
+section {
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
 .game-box {
     width: 308px;
     margin: 10px auto;
@@ -32,4 +39,10 @@ h1 {
 .box-one {
     background-color: #F3F3F3;
 }
+
+.buttons {
+    margin: 20px;
+    text-align: center;
+}
+
   
